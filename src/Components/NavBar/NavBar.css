@@ -1,0 +1,35 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 30px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  z-index: 10;
+}
+
+.logo {
+  position: fixed;
+  left: 20px;
+  width: 80px;
+}
+
+.avatar {
+  position: fixed;
+  right: 20px;
+  width: 30px;
+}
+
+.navbarText{
+    margin-left: 200px;
+}
+.navbarText a{
+  color: white;
+  padding: 0.5rem;
+  text-decoration: none;
+  justify-content: space-between;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
